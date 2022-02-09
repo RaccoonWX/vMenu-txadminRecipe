@@ -7,7 +7,7 @@ description: A full vMenu framework, that uses Badgers Discord API framework, an
 
 
 tasks:
-  # Download default CFX resources
+ # Download default CFX resources
 - action: download_github
   src: https://github.com/citizenfx/cfx-server-data
   ref: master
