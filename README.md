@@ -1,2 +1,2 @@
 # vMenu-txadminRecipe
-A txAdmin recipe if you plan on making a vMenu roleplay server.
+Complete RP Server For FiveM based on vMeNu , & Badger's Ace Perms.
