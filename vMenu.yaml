@@ -7,6 +7,13 @@ description: A full vMenu framework, that uses Badgers Discord API framework, an
 
 
 tasks:
+  # Download default CFX resources
+- action: download_github
+  src: https://github.com/citizenfx/cfx-server-data
+  ref: master
+  subpath: resources
+  dest: ./resources
+
 # Download base files
 - action: download_github
 src: https://github.com/PeEcEeChIP/vMenu-txadminRecipe
@@ -19,18 +26,7 @@ dest: ./server.cfg
 
 - action: move_path
 src: ./tmp/vmenu/myLogo.png
-dest: ./myLogo.png
-
-  - action: download_github
-    src: https://github.com/citizenfx/cfx-server-data
-    ref: master
-    subpath: resources
-    dest: ./resources
-
-- action: download_file
-path: ./tmp/
-
-
+dest: ./myLogo.png 
 
 # Clean up
 - action: remove_path
