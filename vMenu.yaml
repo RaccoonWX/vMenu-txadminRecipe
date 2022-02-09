@@ -16,8 +16,20 @@ dest: ./tmp/vmenu
 - action: move_path
 src: ./tmp/vmenu/server.cfg
 dest: ./server.cfg
+
 - action: move_path
 src: ./tmp/vmenu/myLogo.png
+dest: ./myLogo.png
+
+  - action: download_github
+    src: https://github.com/citizenfx/cfx-server-data
+    ref: master
+    subpath: resources
+    dest: ./resources
+
+- action: download_file
+path: ./tmp/
+
 
 
 # Clean up
