@@ -32,6 +32,13 @@ tasks:
       src: ./tmp/vmenu/resources.cfg
       dest: ./resources.cfg
 
+    - action: download_file
+      path: ./tmp/vMenu-v3.5.0.zip
+      url: https://github.com/TomGrobbe/vMenu/releases/download/v3.5.0/vMenu-v3.5.0.zip
+    - action: unzip
+      dest: ./resources/[Menus]/vMenu
+      src: ./tmp/vMenu-v3.5.0.zip
+      
 # Clean up
     - action: remove_path
       path: ./tmp
