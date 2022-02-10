@@ -3,7 +3,7 @@ $onesync: on
 name: vMenu Framework
 version: 0.0.2
 author: TheRaccoon
-description: A full vMenu framework, that uses Badgers Discord API framework, and to help easily install all the necessary files for any vMenu type roleplay.
+description: a vMenu framework, with permission's already configured for you to avoid all the hassle.
 
 
 tasks:
