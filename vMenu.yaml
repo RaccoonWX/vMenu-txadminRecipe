@@ -28,6 +28,10 @@ tasks:
       src: ./tmp/vmenu/myLogo.png
       dest: ./myLogo.png 
 
+    - action: move_path
+      src: ./tmp/vmenu/resources.cfg
+      dest: ./resources.cfg
+
 # Clean up
     - action: remove_path
       path: ./tmp
