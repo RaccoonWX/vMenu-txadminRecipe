@@ -38,7 +38,29 @@ tasks:
     - action: unzip
       dest: ./resources/[Menus]/vMenu
       src: ./tmp/vMenu-v3.5.0.zip
-      
+
+    - action: download_file
+      path: ./tmp/MenuAPI-v3.2.2-FiveM.zip
+      url: https://github.com/TomGrobbe/MenuAPI/releases/download/v3.2.2/MenuAPI-v3.2.2-FiveM.zip
+    - action: unzip
+      dest: ./resource/[API]/MenuAPI  
+      src: ./tmp/MenuAPI-v3.2.2-FiveM.zip
+
+    - action: download_file
+      path: ./tmp/NativeUILua-2.1.0.zip
+      url: https://github.com/FrazzIe/NativeUILua/archive/refs/tags/2.1.0.zip
+    - action: unzip
+      dest: ./resource/[API]/NativeUI
+      src: ./tmp/NativeUILua-2.1.0.zip
+    - action: remove_path
+      path: ./resource/[API]/NativeUI/MenuExample
+    
+    - action: download_file
+      path: ./tmp/SEM_InteractionMenu-master.zip
+      url: https://github.com/Sc0ttM/SEM_InteractionMenu/archive/master.zip
+    - action: unzip
+      dest: ./resource/[Menus]/SEM_InteractionMenu
+      src: ./tmp/SEM_InteractionMenu-master.zip
 # Clean up
     - action: remove_path
       path: ./tmp
