@@ -1,10 +1,10 @@
-# Still in progress.
+# Need support? Join my Discord! https://discord.gg/8TKfHkvdrY
 $engine: 3
 $onesync: on
 name: vMenu Framework
 version: 0.0.2
 author: TheRaccoon
-description: a vMenu framework, with permission's already configured for you to avoid all the hassle.
+description: a vMenu Framework recipe created by TheRaccoon, to make vMenu server creation's much easier.
 
 
 tasks:
