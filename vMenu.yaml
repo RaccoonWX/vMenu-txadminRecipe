@@ -24,6 +24,14 @@ tasks:
     - action: move_path
       src: ./tmp/vmenu/server.cfg
       dest: ./server.cfg
+      
+    - action: move_path
+      src: ./tmp/vmenu/easyadmin_permissions.cfg
+      dest: ./easyadmin_permissions.cfg
+
+    - action: move_path
+      src: ./tmp/vmenu/other_permissions.cfg
+      dest: ./other_permissions.cfg
 
     - action: move_path
       src: ./tmp/vmenu/myLogo.png
