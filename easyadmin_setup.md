@@ -1,6 +1,9 @@
 # Setting up EasyAdmin Permissions
+
+These are the permission's available for easy admin that you can setup.
+
 ```
-# Here is where you setup your permissions for EasyAdmin to work, here's the available permission option's availabe below.
+Here is where you setup your permissions for EasyAdmin to work, here's the available permission option's availabe below.
 
 # add_ace group.ROLE easyadmin.player.ban.temporary
 # add_ace group.ROLE easyadmin.player.ban.permanent
@@ -20,7 +23,7 @@
 # add_ace group.ROLE easyadmin.player.reports.claim
 # add_ace group.ROLE easyadmin.player.reports.process
 
-# **Server Permission's (For people you can trust)
+ **Server Permission's (For people you can trust)
 # add_ace group.ROLE easyadmin.server.shortcut.add
 # add_ace group.ROLE easyadmin.server.reminder.add
 # add_ace group.ROLE easyadmin.server.permissions.read
@@ -29,13 +32,13 @@
 # add_ace group.ROLE easyadmin.server.cleanup.props
 # add_ace group.ROLE easyadmin.server.cleanup.peds
 
-# **Server convars & resource operations are a very dangerous permission, only assign these to people you can REALLY trust.
+ **Server convars & resource operations are a very dangerous permission, only assign these to people you can REALLY trust.
 # add_ace group.ROLE easyadmin.server.convars
 # add_ace group.ROLE easyadmin.server.resources.start
 # add_ace group.ROLE easyadmin.server.resources.stop
 # add_ace group.ROLE easyadmin.server.server.chat
 
-# Immune prevents you being kicked/banned by other admins, and anon is an anonymous admin feature, to hidde usernames in kicks/bans/admin logs.
+ Immune prevents you being kicked/banned by other admins, and anon is an anonymous admin feature, to hidde usernames in kicks/bans/admin logs.
 # add_ace group.ROLE easyadmin.immune
 # add_ace group.ROLE easyadmin.anon
 ```
